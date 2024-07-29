@@ -1,0 +1,107 @@
+ 
+      /* Apply styles to the body */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #fff;
+      }
+
+      /* Style the container */
+      .container-sm {
+        background-color: #f1dabe;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Style the header */
+      h1 {
+        font-size: 36px;
+        color: #000;
+        font-weight: bold;
+      }
+
+      /* Style the form */
+      form {
+        margin-top: 20px;
+      }
+
+      /* Style form labels */
+      .form-label {
+        font-weight: bold;
+        color: #333;
+      }
+
+      /* Style form controls */
+      .form-control {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 8px;
+        margin-bottom: 10px;
+      }
+
+      /* Style the Submit button */
+      .btn-primary {
+        background-color: #c37d57;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+
+      /* Style checkboxes and radio buttons */
+      .btn-check:focus + .btn-outline-primary,
+      .btn-check:checked + .btn-outline-primary {
+        background-color: #c37d57;
+        border-color: #c37d57;
+        color: #fff;
+      }
+
+      /* Style the header for "Favorite Things" section */
+      h3 {
+        font-size: 24px;
+        color: #000;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      /* Style the select dropdown */
+      .form-select {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 6px;
+      }
+
+      /* Style the multi-select dropdown */
+      .form-select[multiple] {
+        height: auto;
+      }
+
+      /* Style the Submit button in the center */
+      .text-center .btn-primary {
+        display: block;
+        margin: 0 auto;
+        background-color: #c37d57;
+      }
+
+      .text-center .btn-primary:active {
+        background-color: #AA5F4E;
+      }
+
+      /* Add spacing to the Submit button */
+      .mb-3.row:last-child {
+        margin-bottom: 20px;
+      }
+      .btn-outline-primary {
+        border-color: #c37d57;
+        color: #c37d57;
+        background-color: #fff;
+      }
+      label.btn.btn-outline-primary:hover {
+        border-color: #c37d57;
+        color: #fff;
+      }
+      .form-check-input {
+        color: #c37d57;
+      }
+ 
